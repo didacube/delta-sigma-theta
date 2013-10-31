@@ -1,0 +1,50 @@
+html, body {
+	width: 1600;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.main {
+	display: block;
+	float: left;
+	width: 768px;
+	padding: 16px;
+}
+
+.main h1 {
+	font-size: 2.5em;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.main h2 {
+	font-size: 1.75em;
+	font-weight: 100;
+	margin-top: -8px;
+	margin-bottom: 16px;
+	font-size: 18px;
+}
+
+p.bio {
+	font-family: 'Georgia';
+	font-size: 1.25em;
+	font-style: italic;
+	line-height: 1.45;
+}
+
+.profile-img {
+	display: block;
+	float: left;
+	height: 100%;
+	min-width: 536px;
+	max-width: 536px;
+	content: " ";
+}
+
+.obama {
+	background: url(../img/members/obama.jpg) no-repeat top center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
